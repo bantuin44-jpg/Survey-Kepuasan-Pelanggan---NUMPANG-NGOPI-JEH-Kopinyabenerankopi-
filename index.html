@@ -436,7 +436,7 @@
             const adminView = document.getElementById('adminView');
             if (!adminView.classList.contains('hidden')) return;
 
-            const pin = prompt("Masukkan PIN Admin (Default: 1234):");
+            const pin = prompt("Masukkan PIN Admin:");
             if (pin === "1234") {
                 document.getElementById('surveyView').classList.add('hidden');
                 document.getElementById('thankYouView').classList.add('hidden');
